@@ -3,11 +3,11 @@ echo 'ведите первое время: ';
 $argv1 = trim(fgets(STDIN));
 echo 'введите второе время: ';
 $argv2 = trim(fgets(STDIN));
-function sumTime(string $arvg1=NULL, string $argv2=null): string
+function sumTime(string $argv1=NULL, string $argv2=null): string
 {
 	$colon = [':'];
 	$number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-	$array = str_split($arv1.$argv2);
+	$array = str_split($argv1.$argv2);
 
 	foreach ($array as $char)
 	{
