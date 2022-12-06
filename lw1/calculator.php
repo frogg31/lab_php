@@ -36,7 +36,7 @@ class Calculator
         return $this;
     }
 
-    public function getResult()
+    public function getResult():float
     {
         return $this->calculate;
     }
