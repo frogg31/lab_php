@@ -1,0 +1,18 @@
+{
+    "name": "user/date",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\Date\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "frogg31",
+            "email": "113858357+frogg31@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
