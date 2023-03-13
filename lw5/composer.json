@@ -12,5 +12,8 @@
             "email": "113858357+frogg31@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpstan/phpstan": "^1.10"
+    }
 }
