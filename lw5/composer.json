@@ -1,0 +1,16 @@
+{
+    "name": "user/lw5",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\Lw5\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "frogg31",
+            "email": "113858357+frogg31@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
